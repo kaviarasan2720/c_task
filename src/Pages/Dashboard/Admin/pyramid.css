@@ -1,0 +1,185 @@
+
+  
+  .pyramid {
+    transform: rotate(180deg);
+    shape-outside:polygon(310px 0px, 130px 405px, 558px 405px);
+    cursor: pointer;
+  }
+  .numberdesign-circle{
+    transform: rotate(180deg);
+    padding: 0px;
+    margin: 0px;
+  }
+  .zone {
+    padding:25px 0;
+    margin: 0 auto;
+    text-align:center;
+    color: #fff;
+    background-blend-mode:darken;
+    transition: 0.5s;
+  }
+  .zone:nth-child(1){
+    background: #7E4FB7;
+    border-radius: 15px/30px;
+    margin-top: 5px;
+    width: 20%;
+    clip-path:url("#part1");
+    clip-path:polygon(50% 0%,100% 100%, 0% 100%);
+    -webkit-clip-path:polygon(50% 0%,100% 100%, 0% 100%);
+     
+  }
+  .zone:nth-child(2){ 
+    background: #4FA3A5;
+    border-radius: 15px/30px;
+    margin-top: 5px;
+    width: 40%;
+    clip-path:url("#part2");
+    clip-path:polygon(25% 0%,75% 0, 100% 100%,0% 100%);
+    -webkit-clip-path:polygon(25% 0%,75% 0, 100% 100%,0% 100%);
+  }
+  .zone:nth-child(3){
+    background: #FE6F98;
+    border-radius: 15px/30px;
+    margin-top: 5px;
+    width: 60%;
+    clip-path:url("#part3");
+    clip-path:polygon(16.5% 0, 83% 0, 100% 100%,0% 100%);
+    -webkit-clip-path:polygon(16.5% 0, 83% 0, 100% 100%,0% 100%);
+  }
+  .zone:nth-child(4){
+    background: #FF9806;
+    border-radius: 15px/30px;
+    margin-top: 5px;
+    width: 80%;
+    clip-path:url("#part4");
+    clip-path:polygon(12.5% 0, 0%,87.5% 0, 100% 100%,0% 100%);
+    -webkit-clip-path:polygon(12.5% 0,87.5% 0, 100% 100%,0% 100%);
+  }
+  .zone:nth-child(5){
+    background: #7E4FB7;
+    border-radius: 15px/30px;
+    margin-top: 5px;
+    width: 100%;
+    clip-path:url("#part5");
+    clip-path:polygon(9.9% 0,90% 0, 100% 100%,0% 100%);
+    -webkit-clip-path:polygon(9.9% 0,90% 0, 100% 100%,0% 100%);
+  }
+.zone:hover {
+    color: white;
+}
+/* @media (min-width: 769px) 
+{
+.stage1{
+    height: 79px;
+    padding-top: 39%;
+   
+}
+.stage2{
+    height: 79px;
+    padding-top: 39%;
+}
+.stage3{
+    height: 79px;
+    padding-top: 39%;
+}
+.stage4{
+    height: 79px;
+    padding-top: 39%;
+}
+.stage5{
+    height: 79px;
+    padding-top: 39%;
+}
+}
+@media (max-width: 769px) 
+{
+.stage1{
+  text-align: center;
+  padding-top: 5%;
+}
+.stage2{
+  text-align: center;
+  padding-top: 5%;
+}
+.stage3{
+  text-align: center;
+  padding-top: 5%;
+}
+.stage4{
+  text-align: center;
+  padding-top: 5%;
+}
+.stage5{
+  text-align: center;
+  padding-top: 5%;
+}
+} */
+
+.satges1{
+  width: 10px;
+  height: 10px;
+  border: 1px solid #7E4FB7;
+  box-sizing: border-box;
+  background: #7E4FB7;
+}
+.satges2{
+  width: 10px;
+  height: 10px;
+  border: 1px solid #FF9806;
+  box-sizing: border-box;
+  background: #FF9806;
+}
+
+.satges3{
+  width: 10px;
+  height: 10px;
+  border: 1px solid#FE6F98;
+  box-sizing: border-box;
+  background: #FE6F98;
+}
+.satges4{
+  width: 10px;
+  height: 10px;
+  border: 1px solid #4FA3A5;
+  box-sizing: border-box;
+  background: #4FA3A5;
+}
+.satges5{
+  width: 10px;
+  height: 10px;
+  border: 1px solid #7E4FB7;
+  box-sizing: border-box;
+  background: #7E4FB7;
+}
+
+.stage1 {
+  margin-top: -7px;
+}
+.number {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+@media screen and (max-width: 768px) and (max-width: 1000px) {
+  .stage1 .stage2 .stage3 .stage4 .stage5 {
+    width: 5px;
+    height: 5px;
+  }
+  .stage1 {
+    margin-top: -2px;
+    font-size: 8px;
+  }
+}
+
+
+@media screen and (min-width: 769px)  {
+  .datamaps-india {
+    height: 300px; /* Adjust height for mobile view */
+  }
+}
+
+.react-datamaps-legend .apexcharts-legend-text {
+  font-size: 16px;
+  color: #ff0000;
+}

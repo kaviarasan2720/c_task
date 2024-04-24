@@ -1,0 +1,80 @@
+.auth-one-bg {
+    background-image: url('../../Assets/Images/login-bg.jpg');
+    background-position: 50%;
+    background-size: cover;
+}
+.auth-one-bg-position {
+    height: 380px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.auth-one-bg .bg-overlay {
+    background: linear-gradient(90deg,#364574,#405189);
+    opacity: .9;
+}
+.bg-overlay {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.shape{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: none;
+    >svg {
+        width: 100%;
+        height: auto;
+        fill: #FFFFFF;
+    }
+}
+.auth-page-wrapper .auth-page-content {
+    padding-bottom: 60px;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+.auth-page-wrapper .container{
+    max-width: 1140px !important;
+}
+.text-primary {
+    --vz-text-opacity: 1;
+    color: rgba(64,81,137,1) !important;
+}
+.text-muted {
+    --vz-text-opacity: 1;
+    color: #878a99!important;
+}
+.auth-page-wrapper .linenoneed{
+    text-decoration: none!important;
+}
+.auth-page-wrapper h5 {
+    font-size: 1.01562rem;
+}
+.auth-page-wrapper .btn-success{
+    background-color: #0ab39c;
+    border-color: #0ab39c;
+    box-shadow: none;
+    color:#FFFFFF;
+}
+.labelform{
+    font-size: 12px;
+    font-weight: 600;
+}
+.alertbox{
+    font-size: 15px;
+    padding: 10px;
+}
+.avatar-xl {
+    height: 7.5rem;
+    width: 7.5rem;
+}
